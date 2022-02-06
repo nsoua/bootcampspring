@@ -19,6 +19,7 @@ public class HomeController {
 	@RequestMapping("/affichage")
 	public String affiche() {
 
+		System.out.println("Methode affichage");
 		return "home/affichage";
 
 	}
